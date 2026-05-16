@@ -8,6 +8,9 @@
   "files": [
     "generators"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "prepublishOnly": "npm run build",
     "build": "tsc -b && node scripts/copy-templates.js",
