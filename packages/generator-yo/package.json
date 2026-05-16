@@ -1,0 +1,26 @@
+{
+  "name": "@stf/generator-yo",
+  "version": "0.0.0",
+  "type": "module",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm run build --clean && npm run build",
+    "build": "tsc -b && node scripts/copy-templates.js",
+    "dev": "tsc --watch",
+    "postdev": "node scripts/copy-templates.js"
+  },
+  "dependencies": {
+    "yeoman-generator": "catalog:"
+  },
+  "devDependencies": {
+    "@stf/generator-utils": "workspace:*",
+    "@stf/workflow": "workspace:*",
+    "@types/yeoman-generator": "catalog:",
+    "typescript": "catalog:"
+  }
+}

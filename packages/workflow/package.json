@@ -1,0 +1,12 @@
+{
+  "name": "@stf/workflow",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tsconfig/*": "./tsconfig/*.json"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "@<%= scopeName %>/workflow/tsconfig/lib",
+  "include": ["src"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "skipLibCheck": true<% if (types.length > 0) { %>,
+    "types": [
+      <%- types.map(t => '"' + t + '"').join(',\n      ') %>
+    ]<% } %>
+  }
+}

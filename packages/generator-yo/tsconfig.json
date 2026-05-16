@@ -1,0 +1,10 @@
+{
+  "extends": "@stf/workflow/tsconfig/lib",
+  "include": ["src"],
+  "exclude": ["src/**/templates"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "generators",
+    "skipLibCheck": true
+  }
+}
