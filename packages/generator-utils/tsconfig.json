@@ -1,9 +1,0 @@
-{
-  "extends": "@stf/workflow/tsconfig/lib",
-  "include": ["src"],
-  "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "lib",
-    "skipLibCheck": true
-  }
-}

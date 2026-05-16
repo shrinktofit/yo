@@ -18,7 +18,6 @@
     "yeoman-generator": "catalog:"
   },
   "devDependencies": {
-    "@stf/generator-utils": "workspace:*",
     "@stf/workflow": "workspace:*",
     "@types/yeoman-generator": "catalog:",
     "typescript": "catalog:"
