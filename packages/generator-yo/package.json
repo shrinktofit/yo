@@ -9,7 +9,7 @@
     "generators"
   ],
   "scripts": {
-    "prepublishOnly": "npm run build --clean && npm run build",
+    "prepublishOnly": "npm run build",
     "build": "tsc -b && node scripts/copy-templates.js",
     "dev": "tsc --watch",
     "postdev": "node scripts/copy-templates.js"
