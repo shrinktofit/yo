@@ -6,12 +6,12 @@ const projectRoot = path.resolve(__dirname);
 export default defineConfig({
   test: {
     environment: '<%= environment %>',
-    include: ['test/*.test.ts'],
+    include: ['test/**/*.test.ts'],
   },
   resolve: {
     alias: [
       {
-        find: /^@\/(.*)/,
+        find: /^@src\/(.*)/,
         replacement: path.join(projectRoot, 'src', '$1'),
       },
     ],
