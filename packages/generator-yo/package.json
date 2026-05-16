@@ -1,5 +1,5 @@
 {
-  "name": "@stf/generator-yo",
+  "name": "@shrinktofit/generator-yo",
   "version": "0.0.0",
   "type": "module",
   "keywords": [
@@ -18,7 +18,7 @@
     "yeoman-generator": "catalog:"
   },
   "devDependencies": {
-    "@stf/workflow": "workspace:*",
+    "@shrinktofit/workflow": "workspace:*",
     "@types/yeoman-generator": "catalog:",
     "typescript": "catalog:"
   }

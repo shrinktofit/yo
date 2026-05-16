@@ -1,5 +1,5 @@
 {
-  "extends": "@stf/workflow/tsconfig/lib",
+  "extends": "@shrinktofit/workflow/tsconfig/lib",
   "include": ["src"],
   "exclude": ["src/**/templates"],
   "compilerOptions": {

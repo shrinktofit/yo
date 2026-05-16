@@ -1,5 +1,5 @@
 {
-  "name": "@stf/yo",
+  "name": "@shrinktofit/yo",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.29.5",
     "@shrinktofit/eslint-config": "^0.0.3",
-    "@stf/workflow": "workspace:*",
+    "@shrinktofit/workflow": "workspace:*",
     "eslint": "^9.36.0",
     "lerna": "^8.2.3",
     "turbo": "^2.9.12",
